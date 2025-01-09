@@ -44,3 +44,10 @@ To run this project, ensure you have the following installed:
 Install the packages using:
 ```bash
 pip install -r requirements.txt
+```
+## Deployement on Heroku for Live Demo
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jafri115/end-to-end-ml-california-pricing)
+
+## Deploy and Setup Instructions
+
+Follow the [Heroku Devcenter Instructions](https://devcenter.heroku.com/articles/app-webhooks-tutorial)
