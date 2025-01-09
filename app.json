@@ -1,0 +1,26 @@
+{
+    "name": "California House Price Prediction",
+    "description": "A machine learning application to predict house prices in California using Flask and Heroku.",
+    "repository": "https://github.com/Jafri115/end-to-end-ml-california-pricing",
+    "logo": "https://via.placeholder.com/150?text=California+Housing+App",
+    "keywords": ["machine learning", "Flask", "housing", "prediction", "California"],
+    "env": {
+      "PORT": {
+        "description": "The port for the web server.",
+        "value": "5000"
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
+  
