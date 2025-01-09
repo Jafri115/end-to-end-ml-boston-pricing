@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Install the required Python dependencies listed in requirements.txt
 # The --no-cache-dir option prevents caching of package files, reducing the image size
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Expose the port that the app will listen on
 # Heroku dynamically assigns a $PORT, so we expose this environment variable
