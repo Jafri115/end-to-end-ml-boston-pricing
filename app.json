@@ -2,7 +2,7 @@
     "name": "California House Price Prediction",
     "description": "A machine learning application to predict house prices in California using Flask and Heroku.",
     "repository": "https://github.com/Jafri115/end-to-end-ml-california-pricing",
-    "logo": "https://via.placeholder.com/150?text=California+Housing+App",
+    "logo": "https://www.shutterstock.com/shutterstock/photos/2194482069/display_1500/stock-vector-illustration-of-increased-housing-price-house-with-uptrend-chart-and-money-icon-2194482069.jpg",
     "keywords": ["machine learning", "Flask", "housing", "prediction", "California"],
     "env": {
       "PORT": {
