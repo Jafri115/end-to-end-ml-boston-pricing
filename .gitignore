@@ -174,5 +174,5 @@ cython_debug/
 rfmodel.pkl
 scaling.pkl
 
-transformation_pipeline.pkl
+
 housing.csv
