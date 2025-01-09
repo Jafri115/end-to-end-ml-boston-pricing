@@ -51,3 +51,12 @@ pip install -r requirements.txt
 ## Deploy and Setup Instructions
 
 Follow the [Heroku Devcenter Instructions](https://devcenter.heroku.com/articles/app-webhooks-tutorial)
+
+
+## CI/CD Heroku Deployment Workflow
+This project uses GitHub Actions to automate the deployment process to Heroku. The workflow performs the following steps:
+
+Build: Creates a Docker container using the Dockerfile.
+Push: Uploads the container to the Heroku Container Registry.
+Deploy: Releases the container, making the application live on Heroku.
+Simply push changes to the main branch, and the workflow will handle the deployment automatically.
